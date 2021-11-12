@@ -80,7 +80,7 @@ public class NetworkingServerProject{
 		ResultSet rs=null;
 		int q,i,id,deleteItem;
 		try{
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/enquiryform","root","Raavi@123");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/enquiryform","root1","__raavi");
 			ps = con.prepareStatement("select * from enquiry");
 			rs = ps.executeQuery();
 			ResultSetMetaData stData = rs.getMetaData();
